@@ -52,8 +52,10 @@ def main():
         data_type = 'SPOT'
 
     elif args.dataset == 'Netsurf':
-        train_file = 'Dataset/Netsurf/Train_HHblits.csv'
-        valid_file = 'Dataset/Netsurf/Validation_HHblits.csv'
+        # train_file = 'Dataset/Netsurf/Train_HHblits.csv'
+        train_file = '/home/liuzan/hub/AttSec_Edit/Dataset/Netsurf/CASP12_HHblits.csv'
+        # valid_file = 'Dataset/Netsurf/Validation_HHblits.csv'
+        valid_file = '/home/liuzan/hub/AttSec_Edit/Dataset/Netsurf/CB513_HHblits.csv'
         data_type = 'Netsurf'
 
 
